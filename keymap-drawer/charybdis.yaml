@@ -34,7 +34,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
   - {t: Numeral/Function, h: sticky}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: LEFT SHIFT}
   - {t: Symbol, h: sticky}
   Numeral/Function:
   - {t: ▽, type: trans}
