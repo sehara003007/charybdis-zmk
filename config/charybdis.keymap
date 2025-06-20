@@ -92,10 +92,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &kp TAB      &trans     &kp DELETE
-  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
-  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
-                  &trans  &trans  &trans    &trans    &trans
+  &trans  &trans  &trans  &trans          &trans    &trans    &trans         &kp TAB      &trans     &kp DELETE
+  &trans  &trans  &trans  &msc SCRL_UP    &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
+  &trans  &trans  &trans  &msc SCRL_DOWN  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
+                  &trans  &trans          &trans    &trans    &trans
             >;
         };
 
