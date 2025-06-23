@@ -11,7 +11,7 @@
 #define COMBO_TERM_NORMAL 20
 #define COMBO_TERM_SLOW 40
 
-combos {
+combos2 {
   compatible = "zmk,combos";
 
   COMBO(l_leftclick, &mkp LCLK, 11 12, BASE, COMBO_TERM_SLOW)
