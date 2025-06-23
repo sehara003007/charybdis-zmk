@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: LEFT SHIFT}
   - {t: Symbol, h: sticky}
   Numeral/Function:
-  - {t: ▽, type: trans}
+  - BT NXT
   - F7
   - F8
   - F9
@@ -47,7 +47,7 @@ layers:
   - '8'
   - '9'
   - $$mdi:backspace-reverse-outline$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - F4
   - F5
   - F6
@@ -57,7 +57,7 @@ layers:
   - '5'
   - '6'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - F1
   - F2
   - F3
