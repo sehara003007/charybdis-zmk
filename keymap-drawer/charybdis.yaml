@@ -349,6 +349,12 @@ combos:
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
   l: [Base]
+- p: [18, 19]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [Base]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [Base]
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [10, 11]
