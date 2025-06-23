@@ -344,6 +344,4 @@ combos:
   k: '&mkp MCLK'
   l: [Base]
 - p: [0, 1]
-  k: $$mdi:keyboard-esc$$
-- p: [10, 11]
-  k: $$mdi:keyboard-tab$$
+  k: {t: '$$mdi:keyboard-esc$$', s: '`'}
