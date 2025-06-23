@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - {t: /, h: Pointer}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: LEFT COMMAND, h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
   - {t: Numeral/Function, h: sticky}
   - {t: '$$mdi:keyboard-return$$', h: LEFT SHIFT}
-  - {t: Symbol, h: sticky}
+  - {t: RIGHT COMMAND, h: Symbol}
   Numeral/Function:
   - BT NXT
   - F7
@@ -353,3 +353,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
+- p: [18, 19]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
