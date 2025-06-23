@@ -376,6 +376,14 @@ path.combo {
 <rect rx="6" ry="6" x="42" y="91" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="49" y="97" height="14" width="14.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="35" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="49" y="41" height="14" width="14.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="42" y="91" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="49" y="97" height="14" width="14.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 329)" class="layer-Numeral/Function">

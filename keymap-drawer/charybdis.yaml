@@ -345,5 +345,11 @@ combos:
   l: [Base]
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+  l: [Base]
+- p: [10, 11]
+  k: $$mdi:keyboard-tab$$
+  l: [Base]
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
