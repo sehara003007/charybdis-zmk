@@ -21,4 +21,7 @@ combos {
   COMBO(r_leftclick, &mkp LCLK, 17 18, BASE, COMBO_TERM_SLOW)
   COMBO(r_rightclick, &mkp RCLK, 27 28, BASE, COMBO_TERM_SLOW)
   COMBO(r_middleclick, &mkp MCLK, 26 27, BASE, COMBO_TERM_SLOW)
+
+  COMBO(kpcm_esc, &kp ESC, 0 1, BASE, COMBO_TERM_SLOW)
+  COMBO(kpcm_tab, &kp TAB, 10 11, BASE, COMBO_TERM_SLOW)
 }; 
