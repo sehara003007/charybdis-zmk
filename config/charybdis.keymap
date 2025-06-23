@@ -55,7 +55,7 @@
         };
     };
 
-    combos2 {
+    combos {
         compatible = "zmk,combos";
 
         esccombos2 {
