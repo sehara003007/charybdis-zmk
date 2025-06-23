@@ -24,4 +24,7 @@ combos {
 
   COMBO(kpcm_esc, &kp ESC, 0 1, BASE, COMBO_TERM_SLOW)
   COMBO(kpcm_tab, &kp TAB, 10 11, BASE, COMBO_TERM_SLOW)
+
+  COMBO(kpcm_bs, &kp BACKSPACE, 18 19, BASE, COMBO_TERM_SLOW)
+  COMBO(kpcm_del, &kp DELETE, 8 9, BASE, COMBO_TERM_SLOW)
 }; 
