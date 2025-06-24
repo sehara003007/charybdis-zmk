@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NUFU 1
@@ -115,10 +116,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-  &trans  &trans  &trans  &trans          &trans    &trans    &trans         &kp TAB      &trans     &kp DELETE
-  &trans  &trans  &trans  &msc SCRL_UP    &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
-  &trans  &trans  &trans  &msc SCRL_DOWN  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
-                  &trans  &trans          &trans    &trans    &trans
+  &trans  &trans  &trans          &trans          &trans    &trans    &trans         &kp TAB      &trans     &kp DELETE
+  &trans  &trans  &msc SCRL_DOWN  &msc SCRL_UP    &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
+  &trans  &trans  &trans          &msc SCRL_DOWN  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
+                  &trans          &trans          &trans    &trans    &trans
             >;
         };
 
