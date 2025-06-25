@@ -63,8 +63,11 @@
     };
 };
 
-
+/*
 #include <input/processors.dtsi>
+*/
+
+#include <charybdis.dtsi>
 
 &zip_temp_layer {
     excluded-positions = <
