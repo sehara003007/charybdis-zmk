@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NUFU 1
@@ -105,10 +106,10 @@
         Symbol {
             label = "Symbol";
             bindings = <
-  &kp TILDE  &kp AMPS  &kp STAR   &kp QUESTION  &kp PLUS     &trans  &kp LBRC  &kp RBRC  &trans   &kp PIPE
-  &kp MINUS  &kp DLLR  &kp PRCNT  &kp CARET     &kp EQUAL    &trans  &kp LPAR  &kp RPAR  &kp DQT  &kp APOS
-  &kp UNDER  &kp EXCL  &kp AT     &kp HASH      &kp GRAVE    &trans  &kp LBKT  &kp RBKT  &trans   &kp BSLH
-                       &trans     &trans        &trans       &trans  &trans
+  &kp EXCL   &kp AT    &kp HASH       &kp DOLLAR        &kp AMPERSAND    &kp LEFT_BRACE        &kp RBRC               &kp MINUS      &kp EQUAL         &kp PIPE
+  &kp MINUS  &kp DLLR  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RPAR       &kp DQT           &kp APOS
+  &kp UNDER  &kp EXCL  &kp AT         &kp HASH          &kp GRAVE        &kp LBKT              &kp RBKT               &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH
+                       &trans         &trans            &trans           &trans                &trans
             >;
         };
 
