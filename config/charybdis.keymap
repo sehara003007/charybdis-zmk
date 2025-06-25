@@ -20,16 +20,6 @@
     require-prior-idle-ms = <150>;
 };
 
-/*
-#include <input/processors.dtsi>
-#include "charybdis.dtsi"
-*/
-
-
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 5 10000>;
-};
-
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
 
